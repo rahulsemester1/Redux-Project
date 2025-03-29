@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import "tailwindcss";
+
+
+/* @theme {
+  --font-display: "Barlow", "Poppins"; */
+
+/* 576px */
+  /* --breakpoint-sm:36rem; */
+  /* 768px */
+  /* --breakpoint-md:48rem; */
+  /* 992px */
+  /* --breakpoint-lg:62rem; */
+  /* 1200 */
+  /* --breakpoint-xl:75rem;    */
+  
+ 
+  /* --color-orange:#F89223;
+  --color-jet:#2e2f31;
+  --color-gray:#7D7F82;
+  --color-battleship-gray:#8c8e91;
+  --color-green:#6fb43f;
+  --color-danger:#dc3545;
+
+} */
+
+body{
+  @apply bg-[rgb(244,244,244)]
+}
+* {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
